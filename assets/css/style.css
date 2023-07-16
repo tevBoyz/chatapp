@@ -708,7 +708,6 @@ body {
 
   .lefty {
     margin-left: 0rem;
-    border: 2px solid black;
   }
 
   .lefty img {
@@ -808,6 +807,253 @@ body {
 
   .footer-container {
     margin: 2rem 3rem 1rem 3rem;
+  }
+
+  .foot-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .blue-section {
+    height: 70vh;
+    width: 100%;
+  }
+
+  .white-section {
+    height: 90vh;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .nav-bar {
+    padding: 1rem 4rem 0rem 1rem;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .one,
+  .two,
+  .three {
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-top: 3px;
+  }
+
+  .main-section {
+    margin-top: 4rem;
+  }
+
+  .left-side {
+    height: 10rem;
+    margin-left: 1rem;
+  }
+
+  .right-side {
+    height: 18rem;
+    margin-left: 1rem;
+  }
+
+  .left-side-title {
+    height: 4rem;
+    margin-top: 4rem;
+  }
+
+  .left-side-title h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .left-side-desc {
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+  }
+
+  .left-side-buttons {
+    margin-left: 1rem;
+    flex-direction: column;
+  }
+
+  .button-one {
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 50px;
+  }
+  .button-two {
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 50px;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .button-one a {
+    font-size: 0.8rem;
+  }
+
+  .button-two a {
+    font-size: 0.8rem;
+  }
+
+  .right-side img {
+    margin-left: 2rem;
+    height: 18rem;
+  }
+
+  .container-title {
+    margin-top: 2rem;
+  }
+
+  .container-title h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+  }
+
+  .container-desc {
+    width: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .container-desc p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .container-image img {
+    height: 20rem;
+  }
+
+  .grey-section {
+    height: 125vh;
+  }
+
+  .container-three {
+    height: 125vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .lefty {
+    margin-left: 0rem;
+  }
+
+  .lefty img {
+    height: 30rem;
+  }
+
+  .righty {
+    margin-left: 1rem;
+    margin-top: 5rem;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .pricing-title {
+    height: 8rem;
+    width: 25rem;
+  }
+
+  .pricing-title h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  .pricing-desc {
+    width: 15rem;
+    height: 1rem;
+    text-align: left;
+  }
+
+  .pricing-desc p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 34px;
+  }
+
+  .pricing-buttons {
+    height: 7rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+
+  .button-one1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .button-two2 a {
+    text-decoration: none;
+    color: #12558a;
+    font-weight: 600;
+  }
+
+  .button-one1 {
+    height: 4rem;
+    width: 10rem;
+  }
+  .button-two2 {
+    margin-left: 0rem;
+    margin-top: 1rem;
+    height: 4rem;
+    width: 10rem;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stars {
+    border-top: none;
+    padding-top: 1rem;
+    margin-top: 0rem;
+  }
+
+  .stars-desc {
+    padding-top: 2rem;
+    margin-top: 0rem;
+    padding-left: 0rem;
+  }
+  .stars-desc span {
+    font-weight: bold;
+  }
+
+  .stars-desc p {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .footer-container {
+    margin: 1rem;
+    padding: 0rem;
   }
 
   .foot-logo {
