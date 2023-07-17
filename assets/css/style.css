@@ -161,13 +161,13 @@ body {
 .grey-section {
   width: 100%;
   height: 100vh;
+  background-color: rgb(114, 149, 209, 20%);
 }
 
 .container-three {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(114, 149, 209, 20%);
   height: 100vh;
   width: 100%;
 }
@@ -816,7 +816,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .blue-section {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
   }
 
@@ -1057,7 +1057,46 @@ body {
   }
 
   .foot-logo {
-    display: none;
+    display: flex;
+  }
+
+  .foot-top {
+    height: 56rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .foot-links {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50rem;
+    margin-top: 4rem;
+    border-top: 2px solid #12558a;
+  }
+
+  .foot-link {
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .foot-bottom {
+    flex-direction: column-reverse;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .copyright p {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .social img {
+    height: 30px;
   }
 }
 
@@ -1102,20 +1141,20 @@ body {
   .main-section {
     margin-top: 1rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-left: 1rem;
   }
 
   .left-side {
     height: 15rem;
-    margin-left: 1rem;
+    margin-left: 4rem;
   }
 
   .right-side {
     height: 18rem;
-    margin-left: 0rem;
+    margin-left: 4rem;
     margin-top: 2rem;
   }
 
@@ -1180,14 +1219,14 @@ body {
   }
 
   .container-desc {
-    width: 25rem;
+    width: 18rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
   }
   .container-desc p {
     font-size: 1rem;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 20px;
     text-align: justify;
   }
 
@@ -1197,11 +1236,13 @@ body {
 
   .grey-section {
     height: 90vh;
+    width: 100%;
+    overflow-x: none;
   }
 
   .container-three {
     height: 90vh;
-    width: 480px;
+    width: 420px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1214,6 +1255,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 4rem;
   }
 
   .lefty img {
@@ -1360,5 +1402,10 @@ body {
 
   .copyright p {
     text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .social img {
+    height: 30px;
   }
 }
